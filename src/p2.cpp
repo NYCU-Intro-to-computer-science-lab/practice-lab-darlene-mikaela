@@ -11,6 +11,7 @@ int sum(int n) {
     // 在此實作你的程式碼
     if(n==1) return 1;
     return n + sum(n-1);
+    
 }
 
 int main() {
